@@ -1,0 +1,10 @@
+{
+  "id": "github-image-uploader",
+  "name": "GitHub Image Uploader",
+  "version": "0.1.0",
+  "minAppVersion": "1.4.0",
+  "description": "Paste or drop images in any note — they get uploaded to your GitHub repo and replaced with a jsDelivr CDN link automatically.",
+  "author": "n1k0ver3E",
+  "authorUrl": "https://github.com/n1k0ver3E",
+  "isDesktopOnly": false
+}

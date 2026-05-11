@@ -1,0 +1,15 @@
+{
+  "name": "obsidian-github-image-uploader",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "node esbuild.config.mjs",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "esbuild": "^0.21.5",
+    "obsidian": "1.4.11",
+    "typescript": "^5.4.5"
+  }
+}
