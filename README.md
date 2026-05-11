@@ -2,7 +2,7 @@
 
 [中文](README.zh-CN.md) · **English**
 
-Paste or drop any image into a note — the plugin uploads it to your GitHub repo and replaces it with a [jsDelivr](https://www.jsdelivr.com/) CDN link, automatically.
+Paste or drop any image into a note — the plugin uploads it to your GitHub repo and replaces it with a [jsDelivr](https://www.jsdelivr.com/) FREE CDN link, automatically.
 
 **No PicGo. No background process. Just a token.**
 
