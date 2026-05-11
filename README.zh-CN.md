@@ -63,9 +63,7 @@ npm run build
 
 点插件名字旁边的齿轮进入设置页，应该看到这样的面板：
 
-<p align="center">
-  <img src="docs/settings.png" alt="GitHub Image Uploader 设置面板" width="720" />
-</p>
+![img](https://cdn.jsdelivr.net/gh/n1k0ver3E/myPrivateIMGBed@main/img/1778498879814-nmd01g.png)
 
 按下表填：
 
@@ -76,8 +74,6 @@ npm run build
 | **Branch** | 仓库的默认分支（`main` 或 `master`） |
 | **Token** | 去 [github.com/settings/tokens](https://github.com/settings/tokens) 建一个 classic Personal Access Token，scope 只勾 `repo` 就够 |
 | **Path prefix** | 仓库内的子目录，比如 `img` 或 `obsidian/2026`。留空就上传到根目录 |
-
-![img](https://cdn.jsdelivr.net/gh/n1k0ver3E/myPrivateIMGBed@main/img/1778498879814-nmd01g.png)
 
 > 💡 还没有图床仓库？先去 GitHub 新建一个 **public** 仓库（名字随意，空的就行，插件会往里塞文件）。
 

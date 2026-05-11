@@ -63,9 +63,7 @@ npm run build
 
 Click the gear icon next to the plugin name. You should see a panel like this:
 
-<p align="center">
-  <img src="docs/settings.png" alt="GitHub Image Uploader settings panel" width="720" />
-</p>
+![img](https://cdn.jsdelivr.net/gh/n1k0ver3E/myPrivateIMGBed@main/img/1778498879814-nmd01g.png)
 
 Fill in:
 
@@ -76,8 +74,6 @@ Fill in:
 | **Branch** | Default branch of the repo (`main` or `master`) |
 | **Token** | A classic Personal Access Token from [github.com/settings/tokens](https://github.com/settings/tokens) — scope: only `repo` |
 | **Path prefix** | Subfolder inside the repo, e.g. `img` or `obsidian/2026`. Leave empty to upload to the repo root. |
-
-![img](https://cdn.jsdelivr.net/gh/n1k0ver3E/myPrivateIMGBed@main/img/1778498879814-nmd01g.png)
 
 > 💡 Don't have a bed repo yet? Create a new **public** repo on GitHub first (any name, empty is fine — the plugin will create files in it).
 
