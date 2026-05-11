@@ -4,7 +4,7 @@
 
 在任意笔记里粘贴或拖入一张图 — 插件会自动把它上传到你的 GitHub 仓库，并把链接替换成 [jsDelivr](https://www.jsdelivr.com/) 的 CDN 地址。
 
-不需要 PicGo，不需要后台进程，只需要一个 token。
+**不需要 PicGo，不需要后台进程，只需要一个 token。**
 
 ## 特点
 
@@ -17,9 +17,9 @@
 ## 工作原理
 
 ```
-粘贴图片 → 先插入 ![uploading-xxx]() 占位
-        → PUT /repos/:owner/:repo/contents/:path （GitHub Contents API）
-        → 把占位替换成 ![](https://cdn.jsdelivr.net/gh/owner/repo@branch/path)
+粘贴图片到文件 → 先插入 ![uploading-xxx]() 占位
+            → PUT /repos/:owner/:repo/contents/:path （GitHub Contents API）
+            → 把占位替换成 ![](https://cdn.jsdelivr.net/gh/owner/repo@branch/path)
 ```
 
 上传失败的话占位会被清掉，并弹一个错误 toast。
@@ -28,7 +28,7 @@
 
 ## 安装
 
-### 方式 A — 手动（目前推荐）
+### 方式 A — Release（推荐）
 
 1. 进 [最新 Release](../../releases/latest)，下载 **`main.js`** 和 **`manifest.json`**
 2. 在你的 vault 里建文件夹 `<your-vault>/.obsidian/plugins/github-image-uploader/`
@@ -76,6 +76,8 @@ npm run build
 | **Branch** | 仓库的默认分支（`main` 或 `master`） |
 | **Token** | 去 [github.com/settings/tokens](https://github.com/settings/tokens) 建一个 classic Personal Access Token，scope 只勾 `repo` 就够 |
 | **Path prefix** | 仓库内的子目录，比如 `img` 或 `obsidian/2026`。留空就上传到根目录 |
+
+![img](https://cdn.jsdelivr.net/gh/n1k0ver3E/myPrivateIMGBed@main/img/1778498879814-nmd01g.png)
 
 > 💡 还没有图床仓库？先去 GitHub 新建一个 **public** 仓库（名字随意，空的就行，插件会往里塞文件）。
 

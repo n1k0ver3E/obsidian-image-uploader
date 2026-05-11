@@ -4,7 +4,7 @@
 
 Paste or drop any image into a note — the plugin uploads it to your GitHub repo and replaces it with a [jsDelivr](https://www.jsdelivr.com/) CDN link, automatically.
 
-No PicGo. No background process. Just a token.
+**No PicGo. No background process. Just a token.**
 
 ## Features
 
@@ -17,9 +17,9 @@ No PicGo. No background process. Just a token.
 ## How it works
 
 ```
-paste image  →  insert ![uploading-xxx]() placeholder
-             →  PUT /repos/:owner/:repo/contents/:path  (GitHub Contents API)
-             →  replace placeholder with ![](https://cdn.jsdelivr.net/gh/owner/repo@branch/path)
+paste image to file →  insert ![uploading-xxx]() placeholder
+                    →  PUT /repos/:owner/:repo/contents/:path  (GitHub Contents API)
+                    →  replace placeholder with ![](https://cdn.jsdelivr.net/gh/owner/repo@branch/path)
 ```
 
 If the upload fails, the placeholder is removed and an error toast is shown.
@@ -28,7 +28,7 @@ If the upload fails, the placeholder is removed and an error toast is shown.
 
 ## Install
 
-### Option A — manual (recommended for now)
+### Option A — Release (recommended)
 
 1. Go to the [latest Release](../../releases/latest) and download **`main.js`** and **`manifest.json`**.
 2. Create the folder `<your-vault>/.obsidian/plugins/github-image-uploader/`.
@@ -76,6 +76,8 @@ Fill in:
 | **Branch** | Default branch of the repo (`main` or `master`) |
 | **Token** | A classic Personal Access Token from [github.com/settings/tokens](https://github.com/settings/tokens) — scope: only `repo` |
 | **Path prefix** | Subfolder inside the repo, e.g. `img` or `obsidian/2026`. Leave empty to upload to the repo root. |
+
+![img](https://cdn.jsdelivr.net/gh/n1k0ver3E/myPrivateIMGBed@main/img/1778498879814-nmd01g.png)
 
 > 💡 Don't have a bed repo yet? Create a new **public** repo on GitHub first (any name, empty is fine — the plugin will create files in it).
 
