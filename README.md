@@ -61,7 +61,13 @@ npm run build
 
 ### 3. Fill in the settings
 
-Click the gear icon next to the plugin name. Fill in:
+Click the gear icon next to the plugin name. You should see a panel like this:
+
+<p align="center">
+  <img src="docs/settings.png" alt="GitHub Image Uploader settings panel" width="720" />
+</p>
+
+Fill in:
 
 | Field | Value |
 |---|---|

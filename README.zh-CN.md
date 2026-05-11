@@ -61,7 +61,13 @@ npm run build
 
 ### 3. 填写配置
 
-点插件名字旁边的齿轮进入设置页，按下表填：
+点插件名字旁边的齿轮进入设置页，应该看到这样的面板：
+
+<p align="center">
+  <img src="docs/settings.png" alt="GitHub Image Uploader 设置面板" width="720" />
+</p>
+
+按下表填：
 
 | 字段 | 值 |
 |---|---|
